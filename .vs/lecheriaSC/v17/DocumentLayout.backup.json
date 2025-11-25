@@ -7,22 +7,6 @@
       "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\presentation\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:presentation\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\core\\mapeadores\\mapeadorsucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:core\\mapeadores\\mapeadorsucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\presentation\\controllers\\sucursalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:presentation\\controllers\\sucursalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\presentation\\controllers\\solicitudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:presentation\\controllers\\solicitudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,28 +15,64 @@
       "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:presentation\\controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\infrastructure\\repositories\\repositoriosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:infrastructure\\repositories\\repositoriosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\presentation\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:presentation\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\infrastructure\\repositories\\repositoriosolicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:infrastructure\\repositories\\repositoriosolicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\core\\dtos\\reportedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:core\\dtos\\reportedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\core\\dtos\\inventariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:core\\dtos\\inventariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\presentation\\controllers\\sucursalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:presentation\\controllers\\sucursalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\core\\dtos\\sucursaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:core\\dtos\\sucursaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\infrastructure\\repositories\\repositorioreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:infrastructure\\repositories\\repositorioreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\infrastructure\\repositories\\repositoriosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:infrastructure\\repositories\\repositoriosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\infrastructure\\repositories\\repositorioinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:infrastructure\\repositories\\repositorioinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\infrastructure\\repositories\\repositoriosolicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:infrastructure\\repositories\\repositoriosolicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\infrastructure\\data\\sucursalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:infrastructure\\data\\sucursalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\core\\mapeadores\\mapeadorsucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:core\\mapeadores\\mapeadorsucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\core\\mapeadores\\mapeadorsolicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:core\\mapeadores\\mapeadorsolicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\core\\dtos\\solicituddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:core\\dtos\\solicituddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\core\\entidades\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:core\\entidades\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\core\\interfaces\\irepositoriosucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,22 +103,6 @@
       "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:core\\entidades\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\core\\entidades\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:core\\entidades\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\core\\dtos\\sucursaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:core\\dtos\\sucursaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\core\\dtos\\solicituddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:core\\dtos\\solicituddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\core\\dtos\\reportedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:core\\dtos\\reportedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\consumos\\ventasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:consumos\\ventasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -121,10 +125,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\lecheriasc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:lecheriasc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|d:\\programacionweb2\\ooo\\lecheriasc\\core\\dtos\\inventariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F341FFD-893C-42AF-A133-0BB33261EE3E}|lecheriaSC.csproj|solutionrelative:core\\dtos\\inventariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,8 +134,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -144,14 +152,14 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\programacionweb2\\OOO\\lecheriaSC\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T04:49:47.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -159,25 +167,24 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-25T04:49:28.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:49:28.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "RepositorioSucursal.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Infrastructure\\Repositories\\RepositorioSucursal.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RepositorioSucursal.cs",
               "ToolTip": "D:\\programacionweb2\\OOO\\lecheriaSC\\Infrastructure\\Repositories\\RepositorioSucursal.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\RepositorioSucursal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T04:41:57.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "RepositorioSolicitud.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Infrastructure\\Repositories\\RepositorioSolicitud.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RepositorioSolicitud.cs",
@@ -185,18 +192,17 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\RepositorioSolicitud.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:41:56.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:41:56.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "RepositorioReporte.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Infrastructure\\Repositories\\RepositorioReporte.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RepositorioReporte.cs",
               "ToolTip": "D:\\programacionweb2\\OOO\\lecheriaSC\\Infrastructure\\Repositories\\RepositorioReporte.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\RepositorioReporte.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T04:41:54.658Z",
               "EditorCaption": ""
@@ -209,14 +215,14 @@
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RepositorioInventario.cs",
               "ToolTip": "D:\\programacionweb2\\OOO\\lecheriaSC\\Infrastructure\\Repositories\\RepositorioInventario.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\RepositorioInventario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T04:41:52.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "IRepositorioSucursal.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\Interfaces\\IRepositorioSucursal.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\IRepositorioSucursal.cs",
@@ -224,12 +230,11 @@
               "RelativeToolTip": "Core\\Interfaces\\IRepositorioSucursal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:41:38.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:41:38.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "IRepositorioSolicitud.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\Interfaces\\IRepositorioSolicitud.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\IRepositorioSolicitud.cs",
@@ -237,12 +242,11 @@
               "RelativeToolTip": "Core\\Interfaces\\IRepositorioSolicitud.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:41:37.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:41:37.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "IRepositorioReporte.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\Interfaces\\IRepositorioReporte.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\IRepositorioReporte.cs",
@@ -250,12 +254,11 @@
               "RelativeToolTip": "Core\\Interfaces\\IRepositorioReporte.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:41:36.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:41:36.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 7,
               "Title": "SucursalDTO.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\DTOs\\SucursalDTO.cs",
               "RelativeDocumentMoniker": "Core\\DTOs\\SucursalDTO.cs",
@@ -268,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 15,
               "Title": "SolicitudDTO.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\DTOs\\SolicitudDTO.cs",
               "RelativeDocumentMoniker": "Core\\DTOs\\SolicitudDTO.cs",
@@ -276,12 +279,11 @@
               "RelativeToolTip": "Core\\DTOs\\SolicitudDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:41:19.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:41:19.634Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 4,
               "Title": "ReporteDTO.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\DTOs\\ReporteDTO.cs",
               "RelativeDocumentMoniker": "Core\\DTOs\\ReporteDTO.cs",
@@ -294,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "VentasService.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Consumos\\VentasService.cs",
               "RelativeDocumentMoniker": "Consumos\\VentasService.cs",
@@ -302,12 +304,11 @@
               "RelativeToolTip": "Consumos\\VentasService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:41:03.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:41:03.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "RRHHService.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Consumos\\RRHHService.cs",
               "RelativeDocumentMoniker": "Consumos\\RRHHService.cs",
@@ -315,12 +316,11 @@
               "RelativeToolTip": "Consumos\\RRHHService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:41:02.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:41:02.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "MarketingService.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Consumos\\MarketingService.cs",
               "RelativeDocumentMoniker": "Consumos\\MarketingService.cs",
@@ -328,12 +328,11 @@
               "RelativeToolTip": "Consumos\\MarketingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:40:59.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:40:59.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "FabricaService.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Consumos\\FabricaService.cs",
               "RelativeDocumentMoniker": "Consumos\\FabricaService.cs",
@@ -341,12 +340,11 @@
               "RelativeToolTip": "Consumos\\FabricaService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:40:57.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:40:57.703Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ContabilidadService.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Consumos\\ContabilidadService.cs",
               "RelativeDocumentMoniker": "Consumos\\ContabilidadService.cs",
@@ -354,59 +352,47 @@
               "RelativeToolTip": "Consumos\\ContabilidadService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:40:55.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:40:55.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "lecheriaSC",
+              "DocumentIndex": 30,
+              "Title": "lecheriaSC.csproj",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\lecheriaSC.csproj",
               "RelativeDocumentMoniker": "lecheriaSC.csproj",
-              "ToolTip": "D:\\programacionweb2\\OOO\\lecheriaSC\\lecheriaSC.csproj*",
-              "RelativeToolTip": "lecheriaSC.csproj*",
+              "ToolTip": "D:\\programacionweb2\\OOO\\lecheriaSC\\lecheriaSC.csproj",
+              "RelativeToolTip": "lecheriaSC.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-25T04:40:31.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "WhenOpened": "2025-11-25T04:40:31.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "MapeadorSucursal.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\Mapeadores\\MapeadorSucursal.cs",
               "RelativeDocumentMoniker": "Core\\Mapeadores\\MapeadorSucursal.cs",
               "ToolTip": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\Mapeadores\\MapeadorSucursal.cs",
               "RelativeToolTip": "Core\\Mapeadores\\MapeadorSucursal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:39:58.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:39:58.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MapeadorSolicitud.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\Mapeadores\\MapeadorSolicitud.cs",
               "RelativeDocumentMoniker": "Core\\Mapeadores\\MapeadorSolicitud.cs",
               "ToolTip": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\Mapeadores\\MapeadorSolicitud.cs",
               "RelativeToolTip": "Core\\Mapeadores\\MapeadorSolicitud.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:39:58.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:39:58.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "IRepositorioInventario.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\Interfaces\\IRepositorioInventario.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\IRepositorioInventario.cs",
@@ -414,12 +400,11 @@
               "RelativeToolTip": "Core\\Interfaces\\IRepositorioInventario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:39:40.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:39:40.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 5,
               "Title": "InventarioDTO.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\DTOs\\InventarioDTO.cs",
               "RelativeDocumentMoniker": "Core\\DTOs\\InventarioDTO.cs",
@@ -432,72 +417,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SucursalContext.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Infrastructure\\Data\\SucursalContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\SucursalContext.cs",
               "ToolTip": "D:\\programacionweb2\\OOO\\lecheriaSC\\Infrastructure\\Data\\SucursalContext.cs",
               "RelativeToolTip": "Infrastructure\\Data\\SucursalContext.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:36:50.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:36:50.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Presentation\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\DashboardController.cs",
               "ToolTip": "D:\\programacionweb2\\OOO\\lecheriaSC\\Presentation\\Controllers\\DashboardController.cs",
               "RelativeToolTip": "Presentation\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwDIAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAK8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T04:34:30.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "SolicitudController.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Presentation\\Controllers\\SolicitudController.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\SolicitudController.cs",
               "ToolTip": "D:\\programacionweb2\\OOO\\lecheriaSC\\Presentation\\Controllers\\SolicitudController.cs",
               "RelativeToolTip": "Presentation\\Controllers\\SolicitudController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAswFcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T04:33:23.404Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "InventarioController.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Presentation\\Controllers\\InventarioController.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\InventarioController.cs",
               "ToolTip": "D:\\programacionweb2\\OOO\\lecheriaSC\\Presentation\\Controllers\\InventarioController.cs",
               "RelativeToolTip": "Presentation\\Controllers\\InventarioController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAmwH0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T04:32:46.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "SucursalController.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Presentation\\Controllers\\SucursalController.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\SucursalController.cs",
               "ToolTip": "D:\\programacionweb2\\OOO\\lecheriaSC\\Presentation\\Controllers\\SucursalController.cs",
               "RelativeToolTip": "Presentation\\Controllers\\SucursalController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAuwF8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T04:31:59.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Sucursal.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\Entidades\\Sucursal.cs",
               "RelativeDocumentMoniker": "Core\\Entidades\\Sucursal.cs",
@@ -505,12 +489,11 @@
               "RelativeToolTip": "Core\\Entidades\\Sucursal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:29:14.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:29:14.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "Solicitud.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\Entidades\\Solicitud.cs",
               "RelativeDocumentMoniker": "Core\\Entidades\\Solicitud.cs",
@@ -518,12 +501,11 @@
               "RelativeToolTip": "Core\\Entidades\\Solicitud.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:29:12.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:29:12.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Reporte.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\Entidades\\Reporte.cs",
               "RelativeDocumentMoniker": "Core\\Entidades\\Reporte.cs",
@@ -531,25 +513,27 @@
               "RelativeToolTip": "Core\\Entidades\\Reporte.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:29:08.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:29:08.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 16,
               "Title": "Inventario.cs",
               "DocumentMoniker": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\Entidades\\Inventario.cs",
               "RelativeDocumentMoniker": "Core\\Entidades\\Inventario.cs",
               "ToolTip": "D:\\programacionweb2\\OOO\\lecheriaSC\\Core\\Entidades\\Inventario.cs",
               "RelativeToolTip": "Core\\Entidades\\Inventario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T04:29:00.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T04:29:00.491Z"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         },

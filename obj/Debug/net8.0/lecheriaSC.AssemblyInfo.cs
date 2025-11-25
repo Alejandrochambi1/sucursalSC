@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lecheriaSC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5da7d7ad1308ddf1adbce7f3148c4849055a6606")]
 [assembly: System.Reflection.AssemblyProductAttribute("lecheriaSC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lecheriaSC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

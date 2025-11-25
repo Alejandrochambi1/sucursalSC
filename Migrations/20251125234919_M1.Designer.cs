@@ -12,7 +12,7 @@ using lecheriaSC.Infrastructure.Data;
 namespace lecheriaSC.Migrations
 {
     [DbContext(typeof(SucursalContext))]
-    [Migration("20251125045406_M1")]
+    [Migration("20251125234919_M1")]
     partial class M1
     {
         /// <inheritdoc />

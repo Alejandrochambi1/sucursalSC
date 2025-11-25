@@ -38,14 +38,27 @@ namespace lecheriaSC.Presentation.Controllers
             _logger = logger;
         }
 
-        [HttpGet("{codigoSucursal}")]
-        public async Task<ActionResult<DashboardDTO>> ObtenerDashboard(string codigoSucursal)
+        [HttpGet]
+        public async Task<ActionResult<DashboardDTO>> ObtenerDashboard()
         {
+            string codigoSucursal = "SC-01"; // Código fijo interno
+
             try
             {
+                // 1. Obtener Sucursal
                 var sucursal = await _repositorioSucursal.ObtenerPorCodigoAsync(codigoSucursal);
-                if (sucursal == null) return NotFound("Sucursal no encontrada");
 
+                if (sucursal == null)
+                {
+                    sucursal = new Core.Entidades.Sucursal
+                    {
+                        Codigo = codigoSucursal,
+                        Nombre = "Sucursal Default",
+                        Activa = true
+                    };
+                }
+
+                // 2. Construir Dashboard
                 var dashboard = new DashboardDTO
                 {
                     Sucursal = Core.Mapeadores.MapeadorSucursal.EntidadADTO(sucursal),
@@ -60,59 +73,104 @@ namespace lecheriaSC.Presentation.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Error dashboard: {ex.Message}");
+                _logger.LogError($"Error Dashboard: {ex.Message}");
                 return StatusCode(500, "Error interno");
             }
         }
 
+        // ==========================================
+        // MÉTODOS AUXILIARES CORREGIDOS
+        // ==========================================
+
         private async Task<DatosVentasDTO> ObtenerDatosVentas(string codigoSucursal)
         {
-            var datos = await _ventasService.ObtenerVentasPorSucursalAsync(codigoSucursal);
-            return new DatosVentasDTO { TransaccionesCount = 0, TotalMes = 0, Promedio = 0 };
+            try
+            {
+                // AQUÍ LA CORRECCIÓN: (DatosVentasDTO)
+                // Convertimos explícitamente el 'object' que devuelve el servicio.
+                var resultado = await _ventasService.ObtenerVentasPorSucursalAsync(codigoSucursal);
+                return (DatosVentasDTO)resultado;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Fallo Ventas: {ex.Message}");
+                return new DatosVentasDTO { TransaccionesCount = 0, TotalMes = 0m, Promedio = 0m };
+            }
         }
 
         private async Task<DatosRRHHDTO> ObtenerDatosRRHH(string codigoSucursal)
         {
-            var solicitudes = await _repositorioSolicitud.ObtenerPendientesPorSucursalAsync(codigoSucursal);
-            var bonos = solicitudes.Where(s => s.Tipo == "Bono").ToList();
-
-            return new DatosRRHHDTO
+            try
             {
-                EmpleadosActivos = 0,
-                SolicitudesPendientes = bonos.Count,
-                SumaBonosPendientes = bonos.Sum(s => s.Monto)
-            };
+                var solicitudes = await _repositorioSolicitud.ObtenerPendientesPorSucursalAsync(codigoSucursal);
+                var bonos = solicitudes.Where(s => s.Tipo == "Bono").ToList();
+
+                return new DatosRRHHDTO
+                {
+                    EmpleadosActivos = 0,
+                    SolicitudesPendientes = bonos.Count,
+                    SumaBonosPendientes = Convert.ToDecimal(bonos.Sum(s => s.Monto))
+                };
+            }
+            catch
+            {
+                return new DatosRRHHDTO { EmpleadosActivos = 0, SolicitudesPendientes = 0, SumaBonosPendientes = 0m };
+            }
         }
 
         private async Task<DatosInventarioDTO> ObtenerDatosInventario(string codigoSucursal)
         {
-            var inventarios = await _repositorioInventario.ObtenerPorSucursalAsync(codigoSucursal);
-            var enAlerta = inventarios.Count(i => i.EnAlerta);
-
-            return new DatosInventarioDTO
+            try
             {
-                ProductosTotales = inventarios.Count(),
-                ProductosEnAlerta = enAlerta,
-                InventarioValue = inventarios.Sum(i => i.Cantidad * i.PrecioUnitario)
-            };
+                var inventarios = await _repositorioInventario.ObtenerPorSucursalAsync(codigoSucursal);
+
+                var valorTotal = inventarios.Sum(i => i.Cantidad * i.PrecioUnitario);
+
+                return new DatosInventarioDTO
+                {
+                    ProductosTotales = inventarios.Count(),
+                    ProductosEnAlerta = inventarios.Count(i => i.EnAlerta),
+                    InventarioValue = Convert.ToDecimal(valorTotal)
+                };
+            }
+            catch
+            {
+                return new DatosInventarioDTO { ProductosTotales = 0, ProductosEnAlerta = 0, InventarioValue = 0m };
+            }
         }
 
         private async Task<DatosMarketingDTO> ObtenerDatosMarketing(string codigoSucursal)
         {
-            var solicitudes = await _repositorioSolicitud.ObtenerPendientesPorSucursalAsync(codigoSucursal);
-            var campañas = solicitudes.Where(s => s.Departamento == "Marketing").ToList();
-
-            return new DatosMarketingDTO
+            try
             {
-                CampañasPendientes = campañas.Count,
-                PresupuestoPendiente = campañas.Sum(s => s.Monto)
-            };
+                var solicitudes = await _repositorioSolicitud.ObtenerPendientesPorSucursalAsync(codigoSucursal);
+                var campañas = solicitudes.Where(s => s.Departamento == "Marketing").ToList();
+
+                return new DatosMarketingDTO
+                {
+                    CampañasPendientes = campañas.Count,
+                    PresupuestoPendiente = Convert.ToDecimal(campañas.Sum(s => s.Monto)),
+                    PresupuestoAprobado = 0m
+                };
+            }
+            catch
+            {
+                return new DatosMarketingDTO { CampañasPendientes = 0, PresupuestoPendiente = 0m, PresupuestoAprobado = 0m };
+            }
         }
 
         private async Task<decimal> ObtenerSaldoContabilidad(string codigoSucursal)
         {
-            var saldo = await _contabilidadService.ObtenerSaldoAsync(codigoSucursal);
-            return 0; // Parsear respuesta de Contabilidad
+            try
+            {
+                // Convertimos el double/object del servicio a decimal
+                var saldo = await _contabilidadService.ObtenerSaldoAsync(codigoSucursal);
+                return Convert.ToDecimal(saldo);
+            }
+            catch
+            {
+                return 0m;
+            }
         }
     }
 }

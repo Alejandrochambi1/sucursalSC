@@ -234,3 +234,4 @@ D:\programacionweb2\OOO\lecheriaSC\obj\Debug\net8.0\refint\lecheriaSC.dll
 D:\programacionweb2\OOO\lecheriaSC\obj\Debug\net8.0\lecheriaSC.pdb
 D:\programacionweb2\OOO\lecheriaSC\obj\Debug\net8.0\lecheriaSC.genruntimeconfig.cache
 D:\programacionweb2\OOO\lecheriaSC\obj\Debug\net8.0\ref\lecheriaSC.dll
+D:\programacionweb2\OOO\lecheriaSC\obj\Debug\net8.0\lecheriaSC.sourcelink.json
