@@ -15,7 +15,7 @@ builder.Services.AddDbContext<SucursalContext>(options =>
     options.UseNpgsql(databaseUrl)
 );
 
-// Registrar repositorios
+
 builder.Services.AddScoped<IRepositorioSucursal, RepositorioSucursal>();
 builder.Services.AddScoped<IRepositorioSolicitud, RepositorioSolicitud>();
 builder.Services.AddScoped<IRepositorioInventario, RepositorioInventario>();
