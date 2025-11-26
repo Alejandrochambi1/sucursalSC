@@ -1,4 +1,4 @@
-﻿using lecheriaSC.Core.Interfaces;
+using lecheriaSC.Core.Interfaces;
 using lecheriaSC.Infrastructure.Data;
 using lecheriaSC.Infrastructure.Repositories;
 using lecheriaSC.Consumos;
@@ -6,7 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.WebHost.UseUrls("http://0.0.0.0:8080");
+// Configuración del puerto para Railway
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
 var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_PUBLIC_URL")
     ?? builder.Configuration.GetConnectionString("DefaultConnection");
@@ -14,7 +16,6 @@ var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_PUBLIC_URL")
 builder.Services.AddDbContext<SucursalContext>(options =>
     options.UseNpgsql(databaseUrl)
 );
-
 
 builder.Services.AddScoped<IRepositorioSucursal, RepositorioSucursal>();
 builder.Services.AddScoped<IRepositorioSolicitud, RepositorioSolicitud>();
@@ -45,24 +46,33 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Aplicar migraciones automáticamente
+// --- CORRECCIÓN DEL ERROR DE BASE DE DATOS ---
 using (var scope = app.Services.CreateScope())
 {
-    var db = scope.ServiceProvider.GetRequiredService<SucursalContext>();
-    db.Database.Migrate();
+    var services = scope.ServiceProvider;
+    try
+    {
+        var db = services.GetRequiredService<SucursalContext>();
+       
+        db.Database.Migrate();
+        Console.WriteLine("Migración aplicada correctamente.");
+    }
+    catch (Exception ex)
+    {
+        
+        Console.WriteLine($"Error durante la migración (Ignorado para permitir inicio): {ex.Message}");
+    }
 }
 
 app.UseCors("AllowFrontend");
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// --- CORRECCIÓN PARA VER SWAGGER EN RAILWAY ---
+// Quitamos el 'if (IsDevelopment)' para que Swagger salga siempre.
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
